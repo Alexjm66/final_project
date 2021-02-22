@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#registration{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/reg_back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#logo{
+    color: #ff0000
+}
+.registration{
+    display: flex;
+    justify-content:center;
+}
+#logo{
+    margin-top:2%;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size:20px;
+}   
+.reg_form{
+    margin-top: 10%;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: black;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width:300px;
+    height: 30px;
+}
+.btn{
+    width: 100px;
+    font-size: 20px;
+    padding: 8px;
+}
+span{
+    color: #ffffff;
+}
+.reg_main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
